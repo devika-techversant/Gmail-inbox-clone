@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*All icons*/
+.icons {
+	width: 26px;
+}
+
+/*Header*/
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*background-color: #f6f8fc;
+	border-bottom: 1px solid whitesmoke;*/
+}
+
+.header-left {
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.header-left .icons {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.menubutton {
+	border: none;
+	border-radius: 50px;
+	background-color: white;
+}
+
+.menubutton:hover{
+	background-color: #d7d7d7;
+}
+
+#googlelogo {
+	width: 135px;
+}
+
+.header-middle {
+	display: flex;
+	/*flex: 0.7;*/
+	align-items: center;
+	padding: 10px;
+	background-color: #daf0ff;
+	border-radius: 10px;
+}
+
+.searchbutton {
+	border: none;
+	border-radius: 50px;
+	padding: 5px;
+	background-color:  #daf0ff;
+}
+
+.searchbutton:hover{
+	background-color: #d7d7d7;
+}
+
+.header-middle input {
+	border: none;
+	outline: none;
+	/*width: 600px;*/
+	font-size: medium;
+	padding: 10px;
+	background-color: #daf0ff;
+}
+
+.tunebutton {
+	border: none;
+	border-radius: 50px;
+	padding: 5px;
+	background-color:  #daf0ff;
+}
+
+.tunebutton:hover{
+	background-color: #d7d7d7;
+}
+
+.header-right {
+	display: flex;
+	padding-right: 20px;	
+}
+
+.header-right .icons {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.headerrightbutton {
+	border: none;
+	border-radius: 50px;
+	background-color: white;
+}
+
+.headerrightbutton:hover{
+	background-color: #d7d7d7;
+}
+
+/* Sidebar */
+.sidebar {
+	/*flex: 0.3;*/
+	max-width: 300px;
+	padding-right: 20px;
+	background-color: white;
+	/*background-color: #f6f8fc; give this or nothing*/
+}
+
+.sidebar-compose{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	/*text-transform: capitalize;*/
+	color: #001d35;
+	font-size: 14px;
+	padding: 15px;
+	background-color: #91BAD6;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.sidebar-compose:hover {
+	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar-compose .icons {
+	padding-right: 5px;
+}
+
+.sidebar-option {
+	display: flex;
+	align-items: center;
+	margin-left: 80px;
+	padding: 3px 10px;
+	color: #001d35;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 15px;
+	cursor: pointer;
+	BACKGROUND-COLOR: BLUE;
+	/*background-color: #BCD2EB;*/
+}
+
+
+
