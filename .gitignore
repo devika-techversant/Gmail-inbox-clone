@@ -1,3 +1,3 @@
-#Ignore the contents of 'log' folder but keep the folder
+#Ignore the contents of 'logs' folder but keep the folder
 logs/*
-!gitkeep
+!.gitkeep
