@@ -1,0 +1,3 @@
+#Ignore the contents of 'log' folder but keep the folder
+logs/*
+!gitkeep
