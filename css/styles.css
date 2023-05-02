@@ -202,11 +202,11 @@ body {
 	cursor: pointer;
 }
 
-#sidebar-option-active {
+.sidebar-option-active {
 	background-color: #d5e0f0;
 }
 
-#sidebar-option-non-active:hover {
+.sidebar-option-non-active:hover {
 	background-color:  hsl(0, 11%, 93%);
 }
 
@@ -264,7 +264,7 @@ body {
 	align-items: center;
 }
 
-#smallicons {
+.smallicons {
 	width: 20px;
 }
 
