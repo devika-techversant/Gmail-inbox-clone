@@ -54,6 +54,8 @@ body {
 }
 
 .header-middle {
+	margin: 290px;
+	position: fixed;
 	display: flex;
 	flex: 0.7;
 	align-items: center;
@@ -94,6 +96,7 @@ body {
 }
 
 .header-right {
+	float: right;
 	display: flex;
 	padding-right: 20px;	
 }
@@ -174,7 +177,7 @@ body {
 	outline: none;
 	color: #175181;
 	font-size: 15px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 550;
 	padding: 15px;
 	background-color: rgb(159, 223, 253);
@@ -326,6 +329,12 @@ body {
 	color: gray;
 	font-size: 14px;
 	font-weight: 400;
+}
+
+@media screen and (max-width: 769px) {
+	.header-middle input {
+		width: 0px;
+	}
 }
 
 
