@@ -25,57 +25,57 @@ body {
 	justify-content: space-between;
 }
 
-.header-left {
+.headerLeft {
 	display: flex;
 	align-items: center;
 	padding-left: 3px;
 }
 
-.header-left .icons {
+.headerLeft .icons {
 	padding: 20px;
 }
 
-.menublue {
+.menuBlue {
 	margin-right: 5px;
 	background-color: #eaf1fb;
 }
-.menubutton {
+.menuButton {
 	border: none;
 	border-radius: 100px;
 	background-color: #eaf1fb;
 }
 
-.menubutton:hover{
+.menuButton:hover{
 	background-color: #b4b4b4;
 }
 
-#googlelogo {
+#googleLogo {
 	width: 135px;
 }
 
-.header-middle {
+.headerMiddle {
 	margin: 290px;
 	position: fixed;
 	display: flex;
 	flex: 0.7;
 	align-items: center;
 	padding: 10px;
-	background-color: #eaf1fb;;
+	background-color: #eaf1fb;
 	border-radius: 10px;
 }
 
-.searchbutton {
+.searchButton {
 	border: none;
 	border-radius: 50px;
 	padding: 5px;
 	background-color: #eaf1fb;
 }
 
-.searchbutton:hover{
+.searchButton:hover{
 	background-color: hsl(0, 11%, 93%);
 }
 
-.header-middle input {
+.headerMiddle input {
 	border: none;
 	outline: none;
 	width: 600px;
@@ -84,39 +84,39 @@ body {
 	background-color: #eaf1fb;
 }
 
-.tunebutton {
+.tuneButton {
 	border: none;
 	border-radius: 50px;
 	padding: 5px;
 	background-color: #eaf1fb;
 }
 
-.tunebutton:hover{
+.tuneButton:hover{
 	background-color: hsl(0, 11%, 93%);
 }
 
-.header-right {
+.headerRight {
 	float: right;
 	display: flex;
 	padding-right: 20px;	
 }
 
-.header-right .icons {
+.headerRight .icons {
 	padding: 10px;
 }
 
-.headerrightbutton {
+.headerRightButton {
 	border: none;
 	border-radius: 50px;
 	background-color: white;
 }
 
-.headerrightbutton:hover{
+.headerRightButton:hover{
 	background-color: #d7d7d7;
 }
 
 /* main body */
-.mainbody {
+.mainBody {
 	display: flex;
 }
 
@@ -132,9 +132,10 @@ body {
 	background-color: #eaf1fb;
 }
 
-.sidebarbutton1, .sidebarbutton2 {
-	background-color:#eaf1fb;;
-	font-size: 10px;
+.sidebarButton1, .sidebarButton2 {
+	background-color:#eaf1fb;
+	font-size: 12px;
+	font-weight: bold;
 	color: hsl(207, 57%, 33%);
 	padding-top: 20px;
 	padding-right: 10px;
@@ -143,7 +144,7 @@ body {
 	outline: none;
 }
 
-.sidebarbutton1 img, .sidebarbutton2 img {
+.sidebarButton1 img, .sidebarButton2 img {
 	width: 20px;
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -152,11 +153,11 @@ body {
 	border-radius: 20px;
 }
 
-.sidebarbutton1 img {
+.sidebarButton1 img {
 	background-color: #d5e0f0;
 }
 
-.sidebarbutton2 img:hover {
+.sidebarButton2 img:hover {
 	background-color: #b4b4b4;
 }
 
@@ -167,7 +168,7 @@ body {
 	background-color: white;
 }
 
-.sidebar-compose{
+.sidebarCompose{
 	display: flex;
 	align-items: center;
 	margin-top: 5px;
@@ -185,15 +186,15 @@ body {
 	cursor: pointer;
 }
 
-.sidebar-compose:hover {
+.sidebarCompose:hover {
 	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.75);
 }
 
-.sidebar-compose .icons {
+.sidebarCompose .icons {
 	padding-right: 5px;
 }
 
-.sidebar-option {
+.sidebarOption {
 	display: flex;
 	align-items: center;
 	margin-left: 10px;
@@ -205,26 +206,26 @@ body {
 	cursor: pointer;
 }
 
-.sidebar-option-active {
+.sidebarOptionActive {
 	background-color: #d5e0f0;
 }
 
-.sidebar-option-non-active:hover {
+.sidebarOptionNonActive:hover {
 	background-color:  hsl(0, 11%, 93%);
 }
 
-.sidebar-option img {
+.sidebarOption img {
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
-.sidebar-footer {
+.sidebarFooter {
 	display: flex;
 	align-items: center;
 	margin-left: 10px;
 }
 
-.sidebar-footer-icons {
+.sidebarFooterIcons {
 	color: darkslategrey;
 	font-size: 15px;
 	padding: 25px;
@@ -232,7 +233,7 @@ body {
 	align-items: center;
 }
 
-.labelbutton {
+.labelButton {
 	margin-left: 60px;
 	border-radius: 50px;
 	border: none;
@@ -240,16 +241,16 @@ body {
 	background-color: white;
 }
 
-.labelbutton:hover {
+.labelButton:hover {
 	background-color: hsl(0, 11%, 93%);
 }
 
-.email-list {
+.emailList {
 	flex: 1;
 	overflow: scroll;
 }
 
-.email-list-settings {
+.emailListSettings {
 	display: flex;
 	justify-content: space-between;
 	position: sticky;
@@ -258,21 +259,21 @@ body {
 	padding: 8px;
 }
 
-.email-list-settings .icons {
+.emailListSettings .icons {
 	margin: 5px;
 }
 
-.email-list-settings-left {
+.emailListSettingsLeft {
 	display: flex;
 	align-items: center;
 }
 
-.smallicons {
+.smallIcons {
 	width: 20px;
 }
 
 
-.email-row {
+.emailRow {
 	display: flex;
 	align-items: center;
 	padding: 6px 0px;
@@ -281,33 +282,33 @@ body {
 	z-index: 999;
 }
 
-.email-row:hover {
+.emailRow:hover {
 	box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.24);
 }
 
-.email-row-options {
+.emailRowOptions {
 	display: flex;
 	align-items: center;
 	padding-left: 6px;
 }
 
-.email-row-options .icons, input {
+.emailRowOptions .icons, input {
 	margin: 5px;
 }
 
-.email-row-sender {
+.emailRowSender {
 	font-size: 18px;
 	font-weight: 500;
 	flex: 0.3;
 }
 
-.email-row-message {
+.emailRowMessage {
 	display: flex;
 	flex: 0.8;
 	align-items: center;
 }
 
-.email-row-message h4 {
+.emailRowMessage h4 {
 	width: 400px;
 	white-space: nowrap;
 	overflow: hidden;
@@ -318,13 +319,13 @@ body {
 	font-weight: 400;
 }
 
-.email-row-description {
+.emailRowDescription {
 	font-size: 16px;
 	font-weight: 400;
 	color: gray;
 }
 
-.email-row-time {
+.emailRowTime {
 	padding-right: 15px;
 	color: gray;
 	font-size: 14px;
@@ -332,7 +333,7 @@ body {
 }
 
 @media screen and (max-width: 769px) {
-	.header-middle input {
+	.headerMiddle input {
 		width: 0px;
 	}
 }
